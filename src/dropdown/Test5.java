@@ -28,6 +28,9 @@ public class Test5 {
 		List<WebElement> opt = s.getOptions();
 		System.out.println(opt.size());
 		
+		WebElement op = s.getFirstSelectedOption();
+		System.out.println("first selected option"+op.getText());
+		
 		for(WebElement b:opt) {
 			System.out.println(b.getText());
 		}
