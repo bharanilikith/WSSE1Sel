@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Test0 {
 
 	public static void main(String[] args) throws InterruptedException {
-
+//actions
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.ebay.com/");
